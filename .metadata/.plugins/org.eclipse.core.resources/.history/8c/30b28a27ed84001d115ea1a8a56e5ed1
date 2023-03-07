@@ -1,0 +1,22 @@
+@charset "EUC-KR";
+
+
+.m1:hover #submenu{
+	opacity: 1;
+	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
+	visibility: visible;
+}
+
+#submenu {
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 35px;
+	visibility: hidden;
+	z-index: 1;
+}
+
+#submenu li {
+	float: none;
+	width: 100%;
+}

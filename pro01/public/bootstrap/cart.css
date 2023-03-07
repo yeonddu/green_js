@@ -1,0 +1,138 @@
+@charset "EUC-KR";
+
+section #cont-left {
+	float:left;
+	margin:10px;
+	padding:5px;
+}
+
+section #cate #cate-title {
+	background:#A0D97E;
+	color:white;
+	width:200px;
+	margin:0;
+	padding:10px 5px;
+}
+
+section #cate-title {
+	text-align:center;
+	font-size:0.8em;
+}
+
+section #cate ul {
+	padding:0;
+}
+section #cate li {
+	border :1px solid #A0D97E;
+	border-top:none;
+	list-style:none;
+	width:200px;
+	padding:5px 5px 5px 20px;
+	font-size:0.8em;
+}
+
+section #cate a {
+	text-decoration:none;
+	color:#2B2B2B;
+}
+
+section #tel img {
+	width:200px;
+}
+section #cont-right {
+	float:left;
+	margin:10px;
+	padding:5px;
+}
+
+section #cart {
+	width:700px;
+	
+}
+
+section .cart-title {
+	font-weight:bold;
+	border-bottom: 1px solid #2B2B2B;
+}
+
+section #box2 {
+	margin: 15px;
+}
+
+section #box2 .box2-item1 {
+	float:left;
+	margin:10px;
+	padding:5px 20px;
+	border:1px solid #2B2B2B;
+	font-size:0.8em;
+}
+section #box2 .box2-item2 {
+	float:left;
+	margin:10px;
+	padding:5px 5px;
+}
+
+section table {
+	border:1px solid #ccc;
+	font-size:0.8em;
+	text-align:center;
+	width:700px;
+}
+
+section table thead {
+	border-top:2px solid #A0D97E;
+	background:#EEF0ED;
+}
+
+section table tr {
+	border:1px solid #ccc;
+}
+
+section table th, td {
+	padding: 15px 10px;	
+}
+
+section table tr input:nth-child(2) {
+	margin:5px;
+}
+
+section table tr:nth-child(3) {
+	text-align:right;
+}
+
+section table tfoot {
+	background:#EEF0ED;
+}
+
+section table tfoot td {
+	text-align:left;
+}
+section table tfoot>td:nth-child(2){
+	text-align:right;
+}
+section #box4 {
+	margin:25px;
+}
+section #box4 .box4-item1, .box4-item2 {
+	display:inline-block;
+	border:1px solid #A0D97E;
+	padding:5px 8px;
+	font-size:0.8em;
+}
+
+section #box4 .box4-item1 {
+	background:#A0D97E;
+}
+
+section #box4 .box4-item1 a {
+	text-decoration:none;
+	font-weight:bold;
+	font-size:14px;
+	color:white;
+}
+section #box4 .box4-item2 a{
+		text-decoration:none;
+	font-weight:bold;
+	font-size:14px;
+	color:#A0D97E;
+}

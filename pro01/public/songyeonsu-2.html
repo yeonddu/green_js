@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+<script>
+	document.addEventListener("DOMContentLoaded", () => {
+		const output = document.querySelector("#output")
+		const radios = document.querySelectorAll("[name=game]")
+		
+		radios.forEach((radio) => {
+			radio.addEventListener("change", (event) => {
+				const current = event.currentTarget
+				if(current.checked) {
+					output.textContent = `선택하신 것은 가위, 바위, 보 중에 ${current.value}시네요`
+				}
+			})
+		})
+	})
+	
+</script>
+</head>
+<body>
+	<h1># 가위 바위 보 선택하기</h1>
+	<input type="radio" name="game" value="가위"><span>가위</span>
+	<input type="radio" name="game" value="바위"><span>바위</span>
+	<input type="radio" name="game" value="보"><span>보</span>
+	<hr>
+	
+	<h1 id="output"></h1>
+</body>
+</html>

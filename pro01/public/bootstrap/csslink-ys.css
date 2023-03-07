@@ -1,0 +1,70 @@
+ @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Nanum+Pen+Script&display=swap');
+ 
+ 	nav {
+  	position: absolute;
+  	top:0;
+  	left:0;
+ 	}
+ 	
+ 	* {
+ 		font-family: 'Gowun Dodum', sans-serif;
+ 	}
+ 	
+ 	#title {
+ 		font-size:2em;
+		font-family: 'Nanum Pen Script', cursive;
+		
+ 	}
+ 	
+ 	 #peanuts {
+ 		font-size:1.5em;
+		font-family: 'Nanum Pen Script', cursive;
+		
+ 	}
+ 	.slide-img { 	
+	  width: 500px;
+	  height: 300px; 	
+ 	}
+ 	
+ 	#box1 {
+ 		width:100%;
+ 		height:150px;
+ 		margin-bottom: 20px;
+ 		padding:20px;
+ 		background:rgb(253, 236, 183);
+ 	} 
+ 	
+ 	img {
+ 		width:200px;
+ 		height:200px;
+ 		margin:20px 0;
+ 	}
+ 	
+  	footer {
+		background:#FBC886;
+		height:300px;
+		padding:50px;
+		color:#E0840E;
+	}	
+ 	
+ 	footer h3 {
+ 		margin-bottom:30px;
+ 	} 	
+	.col a {
+		text-decoration:none;
+		color:#C57712;
+	}
+	
+	.col p {
+		font-size:0.8em;
+		color:#3D3D3D;
+	}
+
+	#copyright {
+		font-size:0.7em;
+		font-weight:bold;
+		margin-top:30px;
+		color:#3D3D3D;
+		position:absolute;
+		left:50px;
+	}

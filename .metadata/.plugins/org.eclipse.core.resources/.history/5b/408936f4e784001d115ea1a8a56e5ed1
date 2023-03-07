@@ -1,0 +1,8 @@
+const notice = document.querySelector(".tab-btn-1")
+const news = document.querySelector(".tab-btn-2")
+
+const noticeContent = document.querySelector(".tab-container-1")
+
+notice.onclick = function(event) {
+	content.textContent = noticeContent
+}

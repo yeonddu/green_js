@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;pro01/public/bootstrap/header-footer.css&apos; to &apos;dayun.css&apos;" description="Rename resource &apos;header-footer.css&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="public/bootstrap/header-footer.css" name="dayun.css" stamp="1672121321624" updateReferences="true"/>
+</session>

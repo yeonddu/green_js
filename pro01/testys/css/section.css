@@ -1,0 +1,9 @@
+@charset "EUC-KR";
+.best-book-title {
+	text-align:center;
+	font-weight:bold;
+	margin:10px;
+}
+.best-book-contents {
+	font-size:14px;
+}

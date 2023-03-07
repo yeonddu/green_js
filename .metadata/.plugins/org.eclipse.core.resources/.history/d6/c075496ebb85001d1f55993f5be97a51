@@ -1,0 +1,184 @@
+@charset "EUC-KR";
+
+section #cont-left {
+	float:left;
+	margin:10px;
+	padding:5px;
+}
+
+section #cate #cate-title {
+	background:#A0D97E;
+	color:white;
+	width:200px;
+	margin:0;
+	padding:10px 5px;
+}
+
+section #cate-title {
+	text-align:center;
+	font-size:0.8em;
+}
+
+section #cate ul {
+	padding:0;
+}
+section #cate li {
+	border :1px solid #A0D97E;
+	border-top:none;
+	list-style:none;
+	width:200px;
+	padding:5px 5px 5px 20px;
+	font-size:0.8em;
+}
+
+section #cate a {
+	text-decoration:none;
+	color:#2B2B2B;
+}
+
+section #tel img {
+	width:200px;
+}
+section #cont-right {
+	float:left;
+	margin:10px;
+	padding:5px;
+}
+
+section #product {
+	width:700px;
+	
+}
+section .product-title {
+	font-weight:bold;
+	border-bottom: 1px solid #2B2B2B;
+}
+
+#box1-left {
+	float:left;
+	margin:10px;
+}
+
+#box1-left img {
+	width:240px;
+}
+#box1-left #img-btn {
+	position:relative;
+	left:50px;
+}
+
+#box1-left button {
+	background:white;
+	border:2px solid #ddd;
+	font-size:0.5em;
+}
+
+#box1-right {
+	float:left;
+	margin:10px 0;
+	width:440px;
+}
+
+#box1-right .product-title {
+	font-size:0.8em;
+}
+#box1-right table {
+	margin:10px;
+	font-size:0.7em;
+}
+
+#box1-right table td:first-child {
+	width:100px;
+	padding:2px;
+}
+
+#box1-right table input {
+	height:20px;
+	margin-right:2px;
+}
+
+#box1 #box1-btn1, #box1-btn2 {
+	width:100px;
+	padding:10px;
+	margin:0 2px;
+	float:left;
+	font-size:0.8em;
+	position:relative;
+	left:180px;
+	text-align:center;
+	
+}
+#box1 #box1-btn1 a , #box1-btn2 a {
+	color:white;
+	text-decoration:none;
+}
+#box1 #box1-btn1 {
+	background:#A0D97E;	
+}
+#box1 #box1-btn2 {
+	background:#A0D97E;	
+	background:#4D4D4D;
+}
+
+#box2 {
+	clear:both;
+}
+
+#box2 #box2-title {
+	margin:20px;
+}
+
+#box2 #box2-content {
+	border:1px solid #2B2B2B;
+	border-top:3px solid #2B2B2B;
+	margin:5px;
+	width:700px;
+	padding:10px;
+	
+}
+
+#box2 #box2-content p {
+	display:inline-block;
+	margin:5px;
+	line-height:0.5;
+}
+#box2 #box2-content p:nth-child(3n+1) {
+	width:80px;
+}
+
+
+/* #box2 table {
+	border:1px solid #2B2B2B;
+	border-top:2px solid #2B2B2B;
+	margin:5px;
+	width:700px;
+}
+
+#box2 table td:first-child {
+	width:100px;
+	padding:10px;
+	font-weight:bold;
+}
+ */
+#box3 #box3-content {
+	margin:20px;
+
+}
+
+#box3 #box3-content div {
+	margin:10px;
+}
+
+#box3 #box3-content p {
+	text-indent:20px;
+	line-height:0.6;
+	font-size:0.8em;
+}
+
+section #bottom-menu {
+	position:relative;
+	clear:both;
+	height:40px;
+	background:#4D4D4D;
+	
+}

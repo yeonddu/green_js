@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+<script>
+
+	const students = []
+
+	const name = prompt("이름을 입력하세요", "")
+	const kor = prompt("국어점수를 입력하세요", "")
+	const eng = prompt("영어점수를 입력하세요", "")
+	const math = prompt("수학점수를 입력하세요", "")
+	const sci = prompt("과학점수를 입력하세요", "")
+
+	//객체 선언
+
+		
+	function createStudent(name, kor, eng, math, sci) {
+		return {
+			//속성 선언
+			이름:name,
+			국어:kor,
+			영어:eng,
+			수학:math,
+			과학:sci,			
+			//메소드 선언
+			getSum() {
+				return Number(this.국어) + Number(this.영어) + Number(this.수학) + Number(this.과학)
+			},
+			getAverage() {
+				return this.getSum() / 4
+			},	
+			toString() {
+				return `${this.이름}\t${this.getSum()}점\t${this.getAverage()}점\n`
+			}
+		}		
+	}
+		
+	
+	//출력
+	let output = "이름\t총점\t평균\n"
+	for(const s of students) {
+		output += s.toString()
+	}
+	console.log(output)
+	
+	
+
+	
+
+</script>
+</head>
+<body>
+
+</body>
+</html>

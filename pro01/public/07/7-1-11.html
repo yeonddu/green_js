@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+<script>
+	document.addEventListener("DOMContentLoaded", ()=> {
+		let counter = 0
+		const h1 = document.querySelector(`h1`)
+		
+		//h1 태그에 이벤트가 발생할 때 실행할 함수
+		h1.addEventListener(`click`,(event) => {
+			counter++
+			h1.textContent = `클릭 횟수 :${counter}`
+		})
+	})
+
+</script>
+<style>
+	h1 {
+		user-select:none; /*드래그 방지, 클릭만 가능*/
+	}
+</style>
+<body>
+	<h1>클릭 횟수 : 0</h1>
+</body>
+</html>

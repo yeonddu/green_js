@@ -1,0 +1,4 @@
+const notice = document.querySelector(".tab-btn-1")
+notice.onclick = function(event) {
+	
+}

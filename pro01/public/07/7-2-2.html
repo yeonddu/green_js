@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+<script>
+	document.addEventListener("DOMContentLoaded", () => {
+		const h1 = document.querySelector(`h1`)
+		const print = (event) => {
+			let output = ""
+				//이벤트가 발생하면 불값을 반환
+				output += `alt:${event.altKey}<br>`
+				output += `ctrl:${event.ctrlKey}<br>`
+				output += `shift:${event.shiftKey}<br>`
+				output += `code:${typeof(event.code) !== "undefined" ? event.code : event.KeyCode}<br>`
+				h1.innerHTML = output
+			
+		}
+		document.addEventListener("keydown", print) //키가 눌릴때 출력
+		document.addEventListener("keyup", print) //키가 떨어질때 출력
+	})	
+</script>
+</head>
+<body>
+	<h1></h1>
+</body>
+</html>

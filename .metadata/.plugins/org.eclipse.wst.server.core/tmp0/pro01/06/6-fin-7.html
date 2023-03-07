@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+<script>
+	const cloud = {
+		name : "구름",
+		ages : 6,
+		species : "강아지"
+	}
+	
+	const star1 = {
+		name : "별",
+		ages : 1,
+		species : "강아지"
+		}
+	
+	console.log(JSON.stringify(cloud))
+	console.log(JSON.stringify(star1))	
+	
+	const star2 = cloud
+		star2.name = "별"
+		star2.ages = 1
+		
+	console.log(JSON.stringify(cloud))
+	console.log(JSON.stringify(star2))	
+</script>
+</head>
+
+<body>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+@charset "EUC-KR";
+
+.section input [id="slide"] {
+	display:none;
+}
+
+.section .sliderwrap {
+	max-width:1200px;
+	margin 0 auto;
+	overflow:hidden;
+}
+
+.section .slidelist {
+	white-space:nowrap;
+	fone-size:0;
+}
+
+.section .slidelist > li {
+	display:inline-block;
+	vertical-align:middle;
+	width:100%;
+	transition:all .5s;
+}
+
+.section .slidelist > li > a {
+	display:block;
+	position:relative;
+}
+
+.section .slidelist > li > a img{
+	width:100%;
+	}
+

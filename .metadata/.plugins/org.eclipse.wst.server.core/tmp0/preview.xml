@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server port="8080">
+  <module context="pro01" name="pro01" path="C:/web1/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/pro01" type="static"/>
+</server>

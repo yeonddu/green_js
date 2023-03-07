@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="dayun.css">
+<link rel="stylesheet" href="product.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"> 
+
+<title>Insert title here</title>
+
+</head>
+<body>
+ <header>
+	 <div id="top"> 
+	 	 	<div class="logo"><a href="#"><span class="brand">DAYUN</span> ART</a></div>
+			<div id="search">
+				<div id="search-title">SEARCH</div>
+				<input id="search-input" type="search">
+				<a href="#"><img src="images/glass.png"></a> 
+			</div>
+			<div id="top-menu">
+				<ul>
+					<li><a class="brand" href="#">로그인</a></li>
+					<li><a class="brand" href="#">회원가입</a></li>
+					<li><a href="#">마이페이지</a></li>
+					<li><a href="#">이용안내</a></li>
+					<li><a href="#">고객센터</a></li>
+				</ul>
+			</div> 	
+		 </div>
+	 <div id="main-menu">
+	 	<ul>
+	 		<li><a href="#">상세페이지</a></li>
+	 		<li><a href="#">장바구니</a></li>
+	 		<li><a href="#">고객 갤러리</a></li>
+	 		<li><a href="#">주문배송</a></li>
+	 		<li><a href="#">자주하는 질문</a></li>
+	 	</ul>		
+	 </div>
+</header>
+<section>
+	<div id="cont-left">
+		<div id="cate">
+			<div id="cate-title">CATEGORY ITEM</div>
+			<ul>
+			<li><a href="#">생활 아트</a></li>
+			<li><a href="#">캔버스 아트</a></li>
+			<li><a href="#">사진 벽지</a></li>
+			<li><a href="#">창문형/현관문형</a></li>
+			<li><a href="#">포인트 벽지</a></li>
+			<li><a href="#">세계지도 벽지</a></li>
+			<li><a href="#">어린이방 세계지도</a></li>
+			<li><a href="#">족자형 롤스크린</a></li>
+			<li><a href="#">맞춤제작 결제창</a></li>		
+			</ul>		
+		</div>
+		
+		<div id="tel">
+			<img src="images/tel.png" alt="tel">
+		</div>
+	</div>
+	<div id="cont-right">
+		<div id="product">
+			<div id="box1" >
+				<div class="product-title"><span class="brand">POINT MURAL</span> 포인트 뮤럴 벽지</div>
+				<div id="box1-left">
+					<img src="images/product.png">
+					<div id="img-btn">
+						<button>이전</button>
+						<button>큰이미지보기</button>
+						<button>다음</button>
+					</div>
+				</div>
+				<div id="box1-right">
+					<div  class="product-title">[맞춤제작] 화조도-2(연그레이)</div>
+					<table>
+						<tr>
+							<td>판매가</td>
+							<td>23,000원</td>
+						</tr>
+						<tr>
+							<td>제조사</td>
+							<td>다연아트</td>
+						</tr>
+						<tr>
+							<td>특징</td>
+							<td>원하는 사이즈로 제작 가능</td>
+						</tr>
+						<tr>
+							<td>수량</td>
+							<td><input type="text"></td>
+						</tr>
+						<tr>
+							<td>재질</td>
+							<td><select>
+								<option selected>==옵션 선택==</option>
+								<option>옵션 1</option>
+								<option>옵션 2</option>
+								<option>옵션 3</option>
+							</select></td>
+						</tr>
+					</table>
+					<hr>
+					<table>
+						<tr>
+							<td>주문 사이즈</td>
+							<td><input type="text">cm</td>
+						</tr>					
+						<tr>
+							<td>금액</td>
+							<td><input type="text">원</td>
+						</tr>					
+					</table>
+					<hr>
+					<div id="box1-btn1"><a href="#">BUY NOW<br>바로구매하기</a></div>
+					<div id="box1-btn2"><a href="#">CART<br>장바구니담기</a></div>
+
+				</div>
+			</div>
+			<div id="box2" >
+				<div class="product-title"><span class="brand">상품설명</span></div>
+				<div>
+					<div id="box2-title">"다연아트는 맞춤형 주문 제작 방식을 사용합니다"</div>
+					<table>
+						<tr>
+							<td></td>
+						</tr>
+						<tr>
+							<td>- 품명</td>
+							<td>화조도-2(연그레이)</td>
+						</tr>
+						<tr>
+							<td>- 재질</td>
+							<td>고급합지/실크 벽지</td>
+						</tr>
+						<tr>
+							<td>- 크기</td>
+							<td>원하는 사이즈로 제작 가능합니다.</td>
+						</tr>
+						<tr>
+							<td>- 가격</td>
+							<td>합지(23,000원)/실크벽지(28,000원)</td>
+						</tr>
+						<tr>
+							<td>- 문의</td>
+							<td><b>031)123-1234</b></td>
+						</tr>
+						<tr>
+							<td></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="box3" >
+				<div class="product-title"><span class="brand">유의사항</span></div>
+			</div>
+		</div>
+	</div>
+		<div id="bottom-menu">
+	 	<ul>
+	 		<li><a href="#">회사소개</a></li>
+	 		<li><a href="#">이용안내</a></li>
+	 		<li><a href="#">장바구니</a></li>
+	 		<li><a href="#">주문조회</a></li>
+	 		<li><a href="#">적립금</a></li>
+	 		<li><a href="#">이용약관</a></li>
+	 		<li><a href="#">개인정보보호정책</a></li>
+	 		<li><a href="#">고객센터</a></li>
+	 	</ul>		
+	 </div>
+</section>
+<footer>
+	<div class="logo"><span class="brand">DAYUN</span> ART</div>
+	<div id="item2">상호:다연아트 대표:이승주 개인정보관리책임자:이승주(sjdayoun@naver.com)<br>
+		주소:경기도 고양시 덕양구 고양동 160번지 전화:031-967-6218,031-967-6219<br>
+		사업자등록번호[104-03-41624] 통신판매업 신고(제 경기고양-234호)<br>
+		Copyright©2008 dayounart.com All rights reserved
+	</div>
+	<img src="images/certi.png" alt="공정거래위원회인증표준약관사용">
+</footer>
+</body>
+</html>

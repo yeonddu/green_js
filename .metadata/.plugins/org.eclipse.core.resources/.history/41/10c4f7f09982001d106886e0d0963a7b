@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 슬라이더</title>
+    <link rel="stylesheet" href="css/slider2.css">
+ 
+</head>
+<body>
+	<h3 class="blind">HOT BOOK</h3>
+<div class="slider">
+    <input type="radio" name="slide" id="slide1" checked>
+    <input type="radio" name="slide" id="slide2">
+    <input type="radio" name="slide" id="slide3">
+    <ul id="imgholder" class="imgs">
+        <li>
+        <img src="images/main/visual-img-1.jpg">
+        <div>
+        <h4 class="visual-title">Do it! 안드로이드 앱 프로그래밍 &lt;전면 개정 4판&gt;</h4>
+        <p>
+			<span> 6년 연속 안드로이드 분야 1위!<br>
+			전면 개정 4판(안드로이드 7.0 누가 버전 · 안드로이드 스튜디오 반영판)으로 그 명성을 이어간다!</span>
+		</p>
+		<p class="detail-view"><a href="#">자세히 보기</a></p>
+        </div></li>
+ 
+        <li><div>
+        <img src="images/main/visual-img-2.jpg">
+		<h4 class="visual-title">Do it! HTML5+CSS3 웹 표준의 정석 &lt;개정판&gt;</h4>
+		<p>
+			<span> 웹 분야 1위 도서! <br>
+			HTML 5.1 최종 표준안으로 전면 개정!<br>
+			웹의 기본만큼은 권위자에게 정석대로 배우자</span>
+		</p>
+		<p class="detail-view"><a href="#">자세히 보기</a></p>
+        </div></li>
+
+        <li><div>
+		<img src="images/main/visual-img-3.jpg">
+		<h4 class="visual-title">Do it! 웹 사이트 기획 입문</h4>
+		<p>
+			<span> 지금까지 웹 사이트 설계도를 모두 공개한 책은 없었다! 쇼핑몰 제작 전 과정을 따라 하며 웹 기획자의 일을 구체적으로 배우는 책! 단언컨대, 실무 2년보다 이 책 한 권이 낫습니다.</span>
+		</p>
+		<p class="detail-view"><a href="#">자세히 보기</a></p>
+		</div></li>
+    </ul>
+    <div class="bullets">
+        <label for="slide1">&nbsp;</label>
+        <label for="slide2">&nbsp;</label>
+        <label for="slide3">&nbsp;</label>
+    </div>
+</div>
+</body>
+</html>

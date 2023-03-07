@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>snoopy</title>
+	<link rel="stylesheet" href="csslink2.css">
+	<link rel="stylesheet" href="csslink-ys.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+ <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+ <script src="jslink.js"></script>
+
+</head>
+
+<body>
+<div class="fixed-top">
+	<nav class="navbar navbar-expand-lg bg-light">
+	  <div class="container-fluid">
+	    <a id="title" class="navbar-brand" href="#">Snoopy</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+	        <li class="nav-item">
+	          <a class="nav-link active" aria-current="page" href="#">Home</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">Link</a>
+	        </li>
+	        <li class="nav-item dropdown">
+	          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+	            Dropdown
+	          </a>
+	          <ul class="dropdown-menu">
+	            <li><a class="dropdown-item" href="#">Action</a></li>
+	            <li><a class="dropdown-item" href="#">Another action</a></li>
+	            <li><hr class="dropdown-divider"></li>
+	            <li><a class="dropdown-item" href="#">Something else here</a></li>
+	          </ul>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link disabled">Disabled</a>
+	        </li>
+	      </ul>
+	      <form class="d-flex" role="search">
+	        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+	        <button type="button" class="btn btn-outline-warning">Search</button>
+	      </form>
+	    </div>
+	  </div>
+	</nav>
+</div>
+
+	<h1>Incredibly Basic Slider</h1>
+	<div id="slider">
+	  <a href="#" class="control_next"></a>
+	  <a href="#" class="control_prev"></a>
+	  <ul>
+	    <li><img src="https://mblogthumb-phinf.pstatic.net/20160508_293/mongko2023_1462691684344xCa38_PNG/11.png?type=w800" alt="스누피와친구들"></li>
+	    <li><img src="http://image.cine21.com/resize/cine21/site/2015/1221/17_47_00__5677bc84bbd41[W578-].JPG" alt="스누피와친구들"></li>
+	    <li><img src="http://image.yes24.com/blogimage/blog/r/u/run2007/VSughPIc.jpg" alt="스누피와친구들"></li>
+	    <li><img src="https://t1.daumcdn.net/cfile/tistory/277F9B3856C01D9914" alt="스누피와친구들"></li>
+	  </ul>  
+	</div>
+	
+	<div class="slider_option">
+	  <input type="checkbox" id="checkbox">
+	  <label for="checkbox">Autoplay Slider</label>
+	</div> 
+	
+	<div id="box1" class="text-center">
+		<p id="peanuts" >"Peanuts"</p>
+		<p>세상에서 제일 귀엽고 황당한 개와 그 친구들의 이야기</p>
+	</div>
+	
+	<div class="container text-center">
+	  <div class="row">
+	    <div class="col">
+	      <h4>스누피</h4>
+	      <img src="https://danonline.kr/snoopym/images/snoopy_spoon.png?crc=3980034464">
+	     <p>도무지 자신이 개라고 생각하지 않는다. 자기의 주인인 찰리 브라운마저 그저 밥을 주는 ‘둥근 머리 소년’일 뿐이며 피너츠 친구들을 업신여기기까지 한다. 스포츠가 특기로 여자아이들한테 인기가 높다. 파일럿, 변호사 등 자유자재로 변신하는 것이 특기이며, 빨간 지붕 위에서 항상 공상에 잠긴다.</p>
+	    </div>
+	    <div class="col">
+	    <h4>우드스탁</h4>
+	      <img src="data:image/jpeg;base64,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">
+	      <p>스누피의 친구로 언제나 함께 있는 노란색 새. 그는 타이핑도 하고 잘 속기도 하는 스누피의 친구이자 유능한 비서이다. 그가 하는 이야기는 스누피만 알아 듣는다.</p>
+	    </div>
+	    <div class="col">
+	      <h4>찰리브라운</h4>
+	      <img src="https://mblogthumb-phinf.pstatic.net/20150303_117/khan2021_1425369723807ByLNo_JPEG/naver_com_20150303_130055.jpg?type=w2">
+	     <p> 야구를 제일 좋아한다. 그는 야구팀 감독 겸 피처이지만 시합은 항상 지는 일 뿐, 언제나 주위의 놀림을 받고 항상 실패투성이이지만, 마음속은 상냥함으로 가득찬 따뜻한 아이이다.</p>
+	    </div>
+	    <div class="col">
+	      <h4>샐리브라운</h4>
+	      <img src="https://t1.daumcdn.net/thumb/R720x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/2VTq/image/Q5F43KRhGyT4jFZ5D2M-DZkM14U.jpg">
+	      <p>찰리 브라운의 여동생인 샐리는 조숙하고 똑똑한 아이이다. 언제나 오빠를 바보로 여기는 그녀지만 어려움에 닥치면 오빠에게 의지한다. 어려움을 모르는 약삭빠른 아이 라이너스에게 홀딱 빠져서 일방적으로 좋아하는 점은 루시와 비슷하다.</p>
+	    </div>
+	  </div>
+	</div>
+	
+	<footer>
+		<h3>Peanuts</h3>
+		<div class="container text-center">
+		  <div class="row">
+		    <div class="col">
+		      <a href="#">찾아오시는길</a>
+				<p class="lh-base">문의 ㅣ 010-1234-5678<br>
+				오전 9:30 ~ 11:50<br>
+				오후 13:10 ~ 15:30</p>
+		    </div>
+		    <div class="col">
+		      <a href="#"> 이용약관 </a>
+				<p class="lh-base"> 개인정보취급방침 <br>
+				정보보호 최고 책임자 | 피넛츠</p>
+		    </div>
+		    <div class="col">
+		       <a href="#"> 회사소개 </a>
+		       <p class="lh-base">사업자등록번호 | 110-12-34567<br>
+				통신판매업신고 | 대전 2022-122<br>
+				 대표 | 송연수 </p>
+		    </div>
+		  </div>
+		</div>
+		<p id="copyright">Copyright 2000-2021 FREELEC INC All Rights Reserved</p>
+	</footer>
+</body>
+</html>
